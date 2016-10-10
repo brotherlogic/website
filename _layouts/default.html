@@ -1,6 +1,6 @@
 <html>
 <head>
-  <link rel="stylesheet" text="text/css" href="{{site.url}}{{site.baseurl}}/assets/site.css">
+  <link rel="stylesheet" text="text/css" href="/assets/site.css">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
   <title>Low End Theories</title>
 </head>
@@ -10,8 +10,8 @@
     <tr>
       {% for post in site.posts %}
         <td>
-          <a href="{{site.url}}{{site.baseurl}}{{ post.url }}">
-            <img src="{{site.url}}{{site.baseurl}}/images/{{post.image}}" height="200" width="200"/>
+          <a href="{{ post.url }}">
+            <img src="/images/{{post.image}}" height="200" width="200" alt="{{post.title}}"/>
           </a>
         </td>
       {% endfor %}
