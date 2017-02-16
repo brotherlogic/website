@@ -6,16 +6,12 @@
 </head>
 <body>
   <h1>Low End Theories</h1>
-  <table>
-    <tr>
       {% for post in site.posts %}
-        <td>
+        <span id="container">
           <a href="{{site.baseurl}}{{ post.url }}">
             <img src="{{site.baseurl}}/images/{{post.image}}" height="200" width="200" alt="{{post.title}}"/>
           </a>
-        </td>
+        </span>
       {% endfor %}
-    </tr>
-  </table>
 </body>
 </html>
