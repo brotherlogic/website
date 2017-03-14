@@ -2,7 +2,7 @@
 layout: post
 title:  "Anima - Anima"
 date:   2017-02-20 19:00:00 -0700
-image: "anima.jpg"
+image: "anima.jpeg"
 ---
 
 Anima are krautrock with a capital K. Their first album (this one) is two side
