@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Aphrodite's Child - 666"
-date:   2017-04-13 19:00:00 -0700
+date:   2017-03-13 19:00:00 -0700
 image: "666.jpeg"
 ---
 
